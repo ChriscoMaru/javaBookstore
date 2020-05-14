@@ -31,7 +31,7 @@ public class Bookstore{
         this.HasNewBooks = true;
         this.HasUsedBooks = true;
         this.open = this.isOpen(currentTime); //cant make it work
-        this.openWeekends = true;
+        this.openWeekends = false;
 
         //loads books
         titles = new ArrayList<String>();
@@ -45,7 +45,7 @@ public class Bookstore{
         this.HasNewBooks = true;
         this.HasUsedBooks = true;
         this.open = this.isOpen(currentTime); //cant make it work
-        this.openWeekends = true;
+        this.openWeekends = false;
 
         //loads books
         titles = new ArrayList<String>();
@@ -59,7 +59,7 @@ public class Bookstore{
         this.HasNewBooks = true;
         this.HasUsedBooks = true;
         this.open = this.isOpen(currentTime); //still cant make it work
-        this.openWeekends = true;
+        this.openWeekends = false;
 
         //loads more books
         titles = new ArrayList<String>();
